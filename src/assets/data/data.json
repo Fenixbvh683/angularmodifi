@@ -1,0 +1,46 @@
+{
+    "logoap":"./../assets/img/logoap2.png",
+    "bannerimg":"../../../assets/img/codigoblan.png",
+    "fotoimg":"../../../assets/img/JL3.png",
+    "nombre":"Jorge A. Lesme A.",
+    "puesto":"Desarrollador FullStack Jr.",
+    "ciudad":"Buenos Aires - Argentina",
+    "logodosap":"",
+    "logouticban":"",
+    "utic":"UTIC",
+    "acercade":"Gracias a los conocimientos adquiridos, me enfoco el la realizacion de su proyecto y sacando lo mejor le ofrecemos un trabajo completo serio y con excelencia, para que pueda tener una mejor aceptacion con las personas que desee captar su atencion. Para que de esta manera no solo sea algo prolijo y estetico sino que pueda captar mas clientes para su empresa.",
+
+"estudios": {
+    "ide": 1,
+    "logoinstitu":"",
+    "nomInstitu":"Colegio Nacional E.M.D. Dr. Raul Peña",
+    "tituinstitu":"Bachiller en Ciencias y Letras",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+{
+    "ide": 2,
+    "logoinstitu":"",
+    "nomInstitu":"Colegio Nacional E.M.D. Dr. Raul Peña",
+    "tituinstitu":"Bachiller Tecnico en Informatica",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+
+{
+    "ide": 3,
+    "logoinstitu":"",
+    "nomInstitu":"Universsidad Tecnologica Intercontinental - UTIC",
+    "tituinstitu":"Ingenieria en Sistemas Informaticos",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+
+{
+    "ide": 4,
+    "logoinstitu":"",
+    "nomInstitu":"Argentina Programa",
+    "tituinstitu":"Desarrollador FullStack Jr.",
+    "ciuintitu":"Buenos Aires - Argentina"
+}
+
+}
+
+

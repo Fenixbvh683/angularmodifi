@@ -4,13 +4,13 @@
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-5">
             
-            <div id="info-img"><img class="profile-image btn-edit" src="../../../assets/img/JL3.png"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+            <div id="info-img"><img class="profile-image btn-edit" [src]="miPorfolio.fotoimg"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
               data-bs-toggle="modal" data-bs-target="#foto"></i></a></div>
               
               <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-11">
                                      
-                  <h2 class="tipo btn-edit"><strong>Jorge A. Lesme A.</strong></h2>
+                  <h2 class="tipo btn-edit"><strong>{{miPorfolio.nombre}}</strong></h2>
                                   
                 </div>
         
@@ -25,7 +25,7 @@
               <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-11">
                                      
-                  <h3 class="titulo btn-edit">Desarrollador FullStack</h3>
+                  <h3 class="titulo btn-edit">{{miPorfolio.puesto}}</h3>
                                       
                 </div>
         
@@ -40,7 +40,7 @@
               <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-11">
                                      
-                  <span><strong>Buenos Aires (Argentina)</strong></span>
+                  <span><strong>{{miPorfolio.ciudad}}</strong></span>
                                       
                 </div>
         
