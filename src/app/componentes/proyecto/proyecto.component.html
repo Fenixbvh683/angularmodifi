@@ -5,7 +5,7 @@
         <div class="row p-3"><!--Inicio titulo Proyectos-->
           <div class="col-xs-12 col-md-6 col-lg-11">
                                
-              <h1 class="titulo1">Proyectos</h1>
+              <h1 class="titulo1">{{miPorfolio.tituproye}}</h1>
                             
           </div>
     
@@ -22,16 +22,16 @@
                             
           </div>
         </div><!--fin titulo proyectos-->
-          
-        <div class="row p-3"><!--Inicio Primer proyecto-->
+      
+        <div class="row p-3" *ngFor="let proyectito of proyectoList"><!--Inicio Primer proyecto-->
           <div class="col-xs-12 col-md-6 col-lg-4 text-center"><!--Inicio primera columna Primer proyecto-->
                                  
             <div class="card" style="width: 18rem;">
-              <img src="../assest/img/proye.png" class="card-img-top" alt="Proyectos Jorge Lesme">
+              <img [src]="proyectito.logoproye" class="card-img-top" alt="Proyectos Jorge Lesme">
               <div class="card-body">
-                <h5 class="card-title">Proyecto Actual</h5>
-                <p class="card-text">Primer proyecto exitoso que sumo integrantes y usuarios de nuestros servicios de excelente calidad.</p>
-                <a href="#" class="btn btn-primary">Visitar Proyecto</a>
+                <h5 class="card-title">{{proyectito.nomproye}}</h5>
+                <p class="card-text">{{proyectito.descriproye}}</p>
+                <a href="#" class="btn btn-primary">{{proyectito.urlproye}}</a>
               </div>
             </div>
     
@@ -46,53 +46,7 @@
                       
           </div><!--Fin primera columna Primer Estudio-->
     
-          <div class="col-xs-12 col-md-6 col-lg-4"><!--Inicio primera columna Primer proyecto-->
-                                 
-            <div class="card" style="width: 18rem;">
-              <img src="../assest/img/azul.png" class="card-img-top" alt="Proyectos Jorge Lesme">
-              <div class="card-body">
-                <h5 class="card-title">En Proyecto</h5>
-                <p class="card-text">Espacios listos para los proyectos que que estan siendo desarrollados actualmente, pero podemos agregar mas lugares para agregar la de TU EMPRESA.</p>
-                <a href="#" class="btn btn-primary">Link a Futuro Proyecto</a>
-              </div>
-            </div>
-    
-            <ul class="list-group list-group-horizontal uticla">
-    
-              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
-                data-bs-toggle="modal" data-bs-target="#infoproye2"></i></a></div>
-    
-              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
-             
-            </ul>
-                      
-          </div><!--Fin primera columna Primer Estudio-->
-             
-          <div class="col-xs-12 col-md-6 col-lg-4"><!--Inicio Tercera columna Experiencia Laboral-->
-    
-            <div class="card" style="width: 18rem;">
-              <img src="../assest/img/rojo.png" class="card-img-top" alt="Proyectos Jorge Lesme">
-              <div class="card-body">
-                <h5 class="card-title">En Proyecto</h5>
-                <p class="card-text">Espacios listos para los proyectos que que estan siendo desarrollados actualmente, pero podemos agregar mas lugares para agregar la de TU EMPRESA.</p>
-                <a href="#" class="btn btn-primary">Link a Futuro Proyecto</a>
-              </div>
-            </div>
-    
-            <ul class="list-group list-group-horizontal uticla">
-    
-              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
-                data-bs-toggle="modal" data-bs-target="#infoproye3"></i></a></div>
-    
-              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
-             
-            </ul>
-    
-          </div><!--Fin Tercera columna Primera Experiencia Laboral-->
-    
-        </div><!--Fin Primer proyecto-->
-              
-        
+        </div>
     </div><!--Fin Contenedor Experiencia Laboral-->
-    
-    </section><!--Fin Sección proyectos-->
+  
+    </section> <!--Fin Sección proyectos-->

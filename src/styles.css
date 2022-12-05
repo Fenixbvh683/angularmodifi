@@ -80,66 +80,16 @@ img {
     width: 80%;
   }*/
  
-  .modi{
-    padding: 8rem 2rem 1rem 0;
-  }
-  .logoutic{
-    border-radius: none;
-        width: 9rem;
-        height: 9rem;
-        margin-top: 10px;
-        z-index: 1;
-  }
-  .utic{
-    width: 5rem;
-    height: 5rem;
-    
-  }
+
   
-  .acerca{
-    color: rgb(5, 5, 92);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 3rem 2rem 1rem 0
-    
-  }
+  
 
-  .institu{
-    font-size: 2rem;
-    margin: 2rem;
-    color: rgb(109, 9, 223);
-}
-.bajo{
-    color: rgb(110, 24, 21);
-}
+  
 
-.uticla{
-    padding: 3rem 0 0 0;
-}
-.logodr{
-    border-radius: 100%;
-        width: 9rem;
-        height: 9rem;
-        margin-top: 10px;
-        z-index: 1;
-  }
-  .logoapdos{
-    border-radius: none;
-        width: 10rem;
-        height: 5rem;
-        margin-top: 3rem;
-        z-index: 1;
-  }
 
-  .logo1exp{
-        color: rgb(9, 223, 212);
-        width: 12rem;
-        height: 6rem;
-  }
-.html{
-    font-size: 2rem;
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
+ 
+
   /*Inicio de Progres Bar Mitades*/
 
   

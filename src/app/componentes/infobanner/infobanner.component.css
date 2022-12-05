@@ -1,12 +1,12 @@
-.letranegra{
+/*.letranegra{
     filter: invert(1);
     -webkit-filter: invert(1);
     -moz-filter: invert(1)
-    }
+    }*/
     .logo2{
 
-        padding: 5rem 2rem 1rem 0; 
-        width: 12rem;
+        padding: 3rem 2rem 1rem 0; 
+        width: 20rem;
         height: 12rem;
       }  
 
@@ -25,3 +25,8 @@
          
          z-index: 1;
      }
+     .utic{
+      width: 8rem;
+      height: 8rem;
+      
+    }
