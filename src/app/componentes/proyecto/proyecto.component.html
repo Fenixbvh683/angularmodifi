@@ -23,9 +23,9 @@
           </div>
         </div><!--fin titulo proyectos-->
       
-        <div class="row p-3" *ngFor="let proyectito of proyectoList"><!--Inicio Primer proyecto-->
-          <div class="col-xs-12 col-md-6 col-lg-4 text-center"><!--Inicio primera columna Primer proyecto-->
-                                 
+        <div class="row p-3"><!--Inicio Primer proyecto-->
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center" *ngFor="let proyectito of proyectoList"><!--Inicio primera columna Primer proyecto-->
+                                
             <div class="card" style="width: 18rem;">
               <img [src]="proyectito.logoproye" class="card-img-top" alt="Proyectos Jorge Lesme">
               <div class="card-body">

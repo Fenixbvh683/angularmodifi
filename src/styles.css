@@ -44,6 +44,12 @@ header {
     font-family: 'Shrikhand', cursive;
     font-size: xx-large;
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+.titulo1{
+    font-family: 'Carter One', cursive;
+    font-size:  4rem;
+    color: red;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Shrikhand&display=swap');
 .tipo{
