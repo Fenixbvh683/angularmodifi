@@ -35,10 +35,11 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    
   
   ],
-  providers: [],
+  providers: [PorfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

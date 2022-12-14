@@ -5,10 +5,8 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 
 
 const routes: Routes = [
-
-    {path: "inicio", component:InicioComponent},
-    {path: "",redirectTo: "/inicio", pathMatch:"full"},
-    {path: "**", component: Error404Component}
+    {path: '', component:InicioComponent},
+    {path: '**', component: Error404Component}
 ];
 
 @NgModule({
