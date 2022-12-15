@@ -93,30 +93,30 @@
         },
         
         {
-            "ide": 1,
+            "ide": 2,
             "nomhabi":"GIT y GITHUB",
-            "porcehabi": 20,
+            "porcehabi": 70,
             "color": "bg-warning"
             
         },
         
         {
-            "ide": 1,
+            "ide": 3,
             "nomhabi":"CSS",
-            "porcehabi": 70,
+            "porcehabi": 30,
             "color": "bg-info"
             
         },
         
         {
-            "ide": 1,
+            "ide": 4,
             "nomhabi":"ANGULAR",
             "porcehabi": 25,
-            "color": "bg-seccess"
+            "color": "bg-success"
             
         },
         {
-            "ide": 1,
+            "ide": 5,
             "nomhabi":"My SQL",
             "porcehabi": 20,
             "color": "bg-primary"
