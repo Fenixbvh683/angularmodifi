@@ -86,35 +86,40 @@
 
         {
             "ide": 1,
-            "nomhabi":"",
-            "porcehabi": 25
+            "nomhabi":"HTML",
+            "porcehabi": 25,
+            "color": "bg-danger"
             
         },
         
         {
             "ide": 1,
-            "nomhabi":"",
-            "porcehabi": 20
+            "nomhabi":"GIT y GITHUB",
+            "porcehabi": 20,
+            "color": "bg-warning"
             
         },
         
         {
             "ide": 1,
-            "nomhabi":"",
-            "porcehabi": 70
+            "nomhabi":"CSS",
+            "porcehabi": 70,
+            "color": "bg-info"
             
         },
         
         {
             "ide": 1,
-            "nomhabi":"",
-            "porcehabi": 25
+            "nomhabi":"ANGULAR",
+            "porcehabi": 25,
+            "color": "bg-seccess"
             
         },
         {
             "ide": 1,
-            "nomhabi":"",
-            "porcehabi": 20
+            "nomhabi":"My SQL",
+            "porcehabi": 20,
+            "color": "bg-primary"
             
         }
         ],
